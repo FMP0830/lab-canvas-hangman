@@ -25,16 +25,16 @@ describe('Hangman Game', () => {
       });
     });
 
-    describe('secretWord', () => {
-      it('should be a string', () => {
-        expect(hangman.secretWord).toBeDefined();
-        expect(typeof hangman.secretWord).toBe('string');
-      });
+    // describe('secretWord', () => {
+    //   it('should be a string', () => {
+    //     expect(hangman.secretWord).toBeDefined();
+    //     expect(typeof hangman.secretWord).toBe('string');
+    //   });
 
-      it('should hold the value of one of the words in the array', () => {
-        expect(hangman.words.includes(hangman.secretWord)).toBeTrue();
-      });
-    });
+    //   it('should hold the value of one of the words in the array', () => {
+    //     expect(hangman.words.includes(hangman.secretWord)).toBeTrue();
+    //   });
+    // });
 
     describe('errorsLeft', () => {
       it('should be at the starting value', () => {
